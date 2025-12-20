@@ -3,11 +3,11 @@
 <img width="545" alt="logo" src="https://github.com/Leedehai/typst-physics/assets/18319900/ed86198a-8ddb-4473-aed3-8111d5ecde60">
 </p>
 
-# The `physica` package for Typst (v0.9.7)
+# The `physica` package for Typst (v0.9.8)
 
 [![CI](https://github.com/Leedehai/typst-physics/actions/workflows/ci.yml/badge.svg)](https://github.com/Leedehai/typst-physics/actions/workflows/ci.yml)
 
-Available in the collection of [Typst packages](https://typst.app/docs/packages/): `#import "@preview/physica:0.9.7": *`
+Available in the collection of [Typst packages](https://typst.app/docs/packages/): `#import "@preview/physica:0.9.8": *`
 
 > physica _noun_.
 > * Latin, study of nature.
@@ -48,21 +48,21 @@ compiler locally, it downloads packages on-demand and caches them on-disk, see
 
 ```typst
 // Style 1
-#import "@preview/physica:0.9.7": *
+#import "@preview/physica:0.9.8": *
 
 $ curl (grad f), tensor(T, -mu, +nu), pdv(f,x,y,[1,2]) $
 ```
 
 ```typst
 // Style 2
-#import "@preview/physica:0.9.7": curl, grad, tensor, pdv
+#import "@preview/physica:0.9.8": curl, grad, tensor, pdv
 
 $ curl (grad f), tensor(T, -mu, +nu), pdv(f,x,y,[1,2]) $
 ```
 
 ```typst
 // Style 3
-#import "@preview/physica:0.9.7"
+#import "@preview/physica:0.9.8"
 
 $ physica.curl (physica.grad f), physica.tensor(T, -mu, +nu), physica.pdv(f,x,y,[1,2]) $
 ```

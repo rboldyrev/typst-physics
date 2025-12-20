@@ -1,6 +1,6 @@
 [package]
 name = "physica"
-version = "0.9.7"
+version = "0.9.8"
 compiler = "0.14.0"
 description = "Math constructs for science and engineering: derivative, differential, vector field, matrix, tensor, Dirac braket, hbar, transpose, conjugate, many operators, and more."
 authors = ["Leedehai"]

@@ -803,16 +803,6 @@
 // horizontal bar produced by strike() to the current font's Planck symbol, so
 // that the new "hbar" symbol and the existing Planck symbol look similar in any
 // font (not just "New Computer Modern").
-//
-// However, strike() causes some side effects in math mode: it shifts the symbol
-// downward. This seems like a Typst bug. Therefore, we need to use move() to
-// eliminate those side effects so that the symbol behave nicely in math
-// expressions.
-//
-// We also need to use wj (word joiner) to eliminate the unwanted horizontal
-// spaces that manifests when using the symbol in math mode.
-//
-// Credit: Enivex in https://github.com/typst/typst/issues/355 was very helpful.
 #let hbar = math.class("normal", strike(offset: -0.55em, extent: -0.05em, "ℎ"))
 
 /// A show rule, should be used like:

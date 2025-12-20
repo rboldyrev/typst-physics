@@ -1,5 +1,9 @@
 # Changelog
 
+## 0.9.8
+
+* Fix `hbar` since the behavior change in Typst 0.14.1 (#82)
+
 ## 0.9.7
 
 * **(breaking)** In derivative `dv` and partial derivative `pdv`, rename

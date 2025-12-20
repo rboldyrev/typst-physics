@@ -2,7 +2,7 @@
 // This document is shared under the Creative Commons BY-ND 4.0 license.
 #import "physica.typ": *
 
-#let version = "0.9.7"
+#let version = "0.9.8"
 
 #set document(
   title: [physica-manual.typ],
@@ -61,7 +61,7 @@ This manual itself was generated using the Typst CLI and the `physica` package, 
 With `typst`'s #linkurl("package management", "https://github.com/typst/packages"):
 
 ```typst
-#import "@preview/physica:0.9.7": *
+#import "@preview/physica:0.9.8": *
 
 $
 curl(grad f), dd(x,y), pdv(,x,y,z,[2,k]), pdv(vb(e_i),x^j), \
@@ -543,7 +543,7 @@ Functions: `differential(`\*_args_, \*\*_kwargs_`)`, abbreviated as `dd(`...`)`.
   - `compact`: only effective if `p` is `none`. If `#true`, will remove the TeXBook-advised thin spaces between the d-units [default: `#false`].
 
 TeXBook advises _[f]ormulas involving calculus look best when an extra thin space
-  appears before dx or dy or d whatever_ (Chapter 18 p.168), and this package
+appears before dx or dy or d whatever_ (Chapter 18 p.168), and this package
 heeds this advice. If you don't want the spaces between the d-units, you may
 pass a `compact:#true` argument: $dd(r, theta) "vs." dd(r, theta, compact: #true)$ (compact).
 // https://github.com/typst/typst/issues/147 advocates for set rules for
