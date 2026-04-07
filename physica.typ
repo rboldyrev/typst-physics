@@ -264,6 +264,10 @@
 #let crossproduct = $times$
 #let cprod = crossproduct
 
+// plusminus and minusplus
+#let pm = $±$
+#let mp = $∓$
+
 /// Inner product: iprod(u, v)
 #let innerproduct(u, v) = {
   $lr(chevron.l #u, #v chevron.r)$
