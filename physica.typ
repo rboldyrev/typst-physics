@@ -265,8 +265,10 @@
 #let cprod = crossproduct
 
 // plusminus and minusplus
-#let pm = $±$
-#let mp = $∓$
+#let plusminus = $±$
+#let minusplus = $∓$
+#let pm = $plusminus$
+#let mp = $minusplus$
 
 /// Inner product: iprod(u, v)
 #let innerproduct(u, v) = {
