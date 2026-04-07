@@ -114,6 +114,9 @@ All symbols need to be used in *math mode* `$...$`.
 
   [`order(`_expr_`)`], [], [`order(1)`   #sym.arrow $order(1)$], [small O],
 
+  [`plusminus`], [`pm`], [`pm`   #sym.arrow $pm$], [],
+  [`minusplus`], [`mp`], [`pm`   #sym.arrow $mp$], [],
+
   [`Set(`_expr_ ; _condition_`)`],
   [],
   [
